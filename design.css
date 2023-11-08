@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Nunito&family=Nunito+Sans:ital,opsz,wght@0,6..12,500;1,6..12,300&family=Playfair+Display&family=Poppins:ital,wght@1,300&family=Sometype+Mono:wght@500&display=swap');
+*{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sometype Mono', monospace;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 20px;
+    display: inline;
+}
+.content-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    padding: 50px;
+    height: auto;
+    width: 100%;
+    background-color: transparent;  
+    border-radius:0px 30px 0px 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#input{
+    font-size:22px;
+    width: 80%;
+    height: 50px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#btn{
+    padding:5px 20px;
+    font-size: 20px;
+    margin-top: 0;
+    height: 50px;
+}
+#list-container li #btn{
+   margin-left: 200px;
+   margin-top: 3px;
+   width: 100px;
+   padding: 5px 20px;
+   float: inline-end;
+}
+#list-container li{ 
+    font-size: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}   
